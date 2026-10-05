@@ -1,88 +1,159 @@
-# Hi there, I'm Nikhil Dasari
+<div align="center">
 
-### Machine Learning Engineer | Computer Vision Engineer | Generative AI Enthusiast
+<!-- HERO BANNER (1200x600) -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
+  <img src="assets/hero-light.svg" alt="Nikhil Dasari — Machine Learning Engineer | Computer Vision & Generative AI Builder | Bangalore, IN" width="100%">
+</picture>
 
-I build production-grade AI systems that solve real-world problems in computer vision, OCR, retrieval-augmented generation (RAG), and agentic AI.
+<br><br>
 
----
+<!-- ACTION LINK PILLS (48px) -->
+<a href="https://github.com/nikhildasari12" target="_blank">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/btn-github-dark.svg">
+    <img src="assets/btn-github-light.svg" alt="GitHub Profile" height="42">
+  </picture>
+</a>
+&nbsp;
+<a href="https://www.linkedin.com/in/dasari-nikhil" target="_blank">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/btn-linkedin-dark.svg">
+    <img src="assets/btn-linkedin-light.svg" alt="LinkedIn Profile" height="42">
+  </picture>
+</a>
+&nbsp;
+<a href="https://nikhil-dasari-portfolio.netlify.app/" target="_blank">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/btn-portfolio-dark.svg">
+    <img src="assets/btn-portfolio-light.svg" alt="Engineering Portfolio" height="42">
+  </picture>
+</a>
+&nbsp;
+<a href="mailto:dasarinikhil121@gmail.com">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/btn-email-dark.svg">
+    <img src="assets/btn-email-light.svg" alt="Direct Email Contact" height="42">
+  </picture>
+</a>
 
-## About Me
+</div>
 
-- Building end-to-end AI solutions using PyTorch, TensorFlow, OpenCV, and AWS
-- Specialized in Computer Vision, OCR, Object Detection, and Vision Language Models
-- Experienced with LLMs, RAG pipelines, LoRA/QLoRA, and Multi-Agent Systems
-- Creator of `imgraft`, an open-source semantic image dataset curation library
-- Deploying scalable inference systems using Docker and AWS Lambda
-- Passionate about transforming research prototypes into production-ready products
+<br>
 
----
+<!-- ======================= 01 · ABOUT & RADAR ======================= -->
+<picture>
+  <img src="assets/header-about.svg" alt="01 · ABOUT & RADAR" width="100%">
+</picture>
 
-## Tech Stack
+I am a **Machine Learning Engineer** based in Bangalore specializing in Computer Vision, OCR, and Generative AI systems. I transform complex visual research into production-grade, highly resilient pipelines that solve real-world problems.
 
-### Machine Learning & Computer Vision
-PyTorch • TensorFlow • OpenCV • YOLO • CLIP • HDBSCAN • scikit-learn
+My work centers on the entire machine learning lifecycle—diagnosing critical dataset failures, training transformer-based visual representations, fine-tuning multimodal vision-language models, and orchestrating serverless AI inference on AWS.
 
-### Generative AI & LLMs
-LangChain • RAG • QLoRA • LoRA • Vision Language Models • Prompt Engineering
+<br>
 
-### Deployment & MLOps
-Docker • AWS Lambda • AWS ECR • API Gateway • FastAPI • Flask • CI/CD
+<!-- NOW / RADAR GLASS CARD -->
+<picture>
+  <img src="assets/card-now.svg" alt="Engineering Radar: Currently building imgraft and SVTRv2, researching Vision Language Models, and open to ML / Computer Vision roles." width="100%">
+</picture>
 
-### Programming
-Python • SQL • Git • Linux
+<br><br>
 
----
+<!-- ======================= 02 · FEATURED ARTIFACTS ======================= -->
+<picture>
+  <img src="assets/header-projects.svg" alt="02 · FEATURED ARTIFACTS" width="100%">
+</picture>
 
-## Featured Projects
+<div align="center">
 
-### Lung CT Cancer Detection
-EfficientNet-B0-based deep learning pipeline for classifying lung CT scans into cancer stages with robust preprocessing and evaluation metrics.
+<!-- ROW 1 -->
+<a href="https://github.com/nikhildasari12/imgraft" target="_blank">
+  <img src="assets/card-imgraft.svg" alt="imgraft: Semantic image dataset curation using CLIP embeddings and HDBSCAN clustering. Restored model accuracy from 2% to 95%." width="49%">
+</a>
+&nbsp;
+<a href="https://github.com/nikhildasari12/transformers-ocr" target="_blank">
+  <img src="assets/card-transformers-ocr.svg" alt="transformers-ocr: High-accuracy Transformer OCR for digit recognition and visual document parsing using SVTR, CTC beam search, and PyTorch." width="49%">
+</a>
 
-### imgraft
-Semantic image dataset curation using CLIP embeddings and HDBSCAN clustering to clean, balance, and deduplicate image datasets without labels.
+<p align="center">
+  <sub><b>Left:</b> Automated semantic dataset curation resolving silent data corruption · <b>Right:</b> End-to-end transformer-based digit and document text extraction</sub>
+</p>
 
-### Suspicious Login Activity Detection
-Detect impossible travel, abnormal login patterns, and malicious IPs using Streamlit, IP2Location, and AbuseIPDB.
+<br>
 
-### LAN Sentinel
-Local network security scanner for device discovery, open port analysis, service detection, and Shodan exposure checks.
+<!-- ROW 2 -->
+<a href="https://github.com/nikhildasari12/Lung-CT-cancer-detection-with-EfficientNet-B0-PyTorch-" target="_blank">
+  <img src="assets/card-lung-ct.svg" alt="Lung CT Detection: Deep learning research pipeline classifying lung CT scans into cancer stages using EfficientNet-B0 and Streamlit." width="49%">
+</a>
+&nbsp;
+<a href="https://github.com/nikhildasari12/LAN-Sentinel-Local-Network-Security-Scanner" target="_blank">
+  <img src="assets/card-lan-sentinel.svg" alt="LAN Sentinel: Local network security scanner for device discovery, open port auditing, and Shodan exposure verification." width="49%">
+</a>
 
-### Transformers OCR
-High-accuracy OCR system for digit recognition using SVTR, CTC beam search, CutMix augmentation, and PyTorch.
+<p align="center">
+  <sub><b>Left:</b> Medical imaging diagnostic benchmark with precision-recall evaluation · <b>Right:</b> Automated network vulnerability discovery and external surface analysis</sub>
+</p>
 
----
+</div>
 
-## Professional Highlights
+<br>
 
-- Built production-grade OCR and computer vision systems
-- Diagnosed dataset issues causing model accuracy to drop to 2%
-- Restored performance to 95% using automated semantic dataset curation
-- Built serverless AI pipelines deployed on AWS Lambda
-- Fine-tuned Vision Language Models using QLoRA
+<!-- ======================= 03 · TECHNICAL WEAPONS ======================= -->
+<picture>
+  <img src="assets/header-stack.svg" alt="03 · TECHNICAL WEAPONS" width="100%">
+</picture>
 
----
+<picture>
+  <img src="assets/stack.svg" alt="Primary Tools: PyTorch, OpenCV, Hugging Face, FastAPI, Docker, AWS Lambda, Python, Git, Linux, Streamlit. Specialized: TensorFlow, scikit-learn, LangChain, PostgreSQL, Flask." width="100%">
+</picture>
 
-## Open Source Focus
+<br>
 
-I enjoy building practical, production-ready tools in:
+<details>
+<summary><b>View complete technical arsenal breakdown</b></summary>
+<br>
 
-- Computer Vision
-- Generative AI
-- Dataset Engineering
-- OCR
-- Cybersecurity
-- MLOps
+- **Computer Vision & Deep Learning**: PyTorch, OpenCV, YOLO, CLIP, SVTR, EfficientNet, HDBSCAN, scikit-learn, CutMix augmentation.
+- **Generative AI & Multimodal LLMs**: Vision-Language Models (VLMs), QLoRA / LoRA fine-tuning, RAG pipelines, LangChain, Vector Embeddings.
+- **Cloud & MLOps Infrastructure**: Docker, AWS Lambda, Amazon ECR, API Gateway, FastAPI, Flask, Linux, CI/CD Actions.
+- **Languages & Databases**: Python, SQL, PostgreSQL, Bash.
 
----
+</details>
 
-## Connect With Me
+<br><br>
 
-- LinkedIn: www.linkedin.com/in/dasari-nikhil
-- Portfolio: https://nikhil-dasari-portfolio.netlify.app/
-- Email: dasarinikhil121@gmail.com
+<!-- ======================= 04 · LIVE TELEMETRY ======================= -->
+<picture>
+  <img src="assets/header-stats.svg" alt="04 · LIVE TELEMETRY" width="100%">
+</picture>
 
----
+<picture>
+  <img src="assets/stats.svg" alt="GitHub Live Telemetry: 140+ annual contributions, merged pull requests, and verified Python code dominance." width="100%">
+</picture>
 
-## Motto
+<br><br>
 
-> "Turn messy real-world data into reliable AI systems."
+<picture>
+  <img src="assets/skyline.svg" alt="52-Week Isometric 3D Crimson Glass Contribution Skyline" width="100%">
+</picture>
+
+<br><br>
+
+<!-- ======================= FOOTER ======================= -->
+<picture>
+  <img src="assets/footer.svg" alt="Turn messy real-world data into reliable AI systems. — Nikhil Dasari" width="100%">
+</picture>
+
+<div align="center">
+  <sub>
+    Designed in Crimson Glass · Base64 WOFF2 Type (Syne, Instrument Serif, Inter Tight, JetBrains Mono) · Vector 3D via SMIL · Refreshed daily via GitHub Actions
+  </sub>
+  <br><br>
+  <sub>
+    <b>Connect:</b>
+    <a href="https://github.com/nikhildasari12">GitHub</a> ·
+    <a href="https://www.linkedin.com/in/dasari-nikhil">LinkedIn</a> ·
+    <a href="https://nikhil-dasari-portfolio.netlify.app/">Portfolio</a> ·
+    <a href="mailto:dasarinikhil121@gmail.com">Email</a>
+  </sub>
+</div>
