@@ -1,0 +1,42 @@
+name: Refresh Live GitHub Telemetry
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # Daily at midnight UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-stats:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r assets/src/requirements.txt
+
+      - name: Regenerate Telemetry & Skyline SVGs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python -m assets.src.stats
+          cp assets/dist/stats.svg assets/stats.svg
+          cp assets/dist/skyline.svg assets/skyline.svg
+
+      - name: Commit updated telemetry
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add assets/stats.svg assets/skyline.svg assets/dist/
+          git diff --quiet && git diff --staged --quiet || (git commit -m "chore(telemetry): auto-refresh 3D glass skyline & stats [skip ci]" && git push)
